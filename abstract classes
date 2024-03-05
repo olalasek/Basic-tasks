@@ -8,7 +8,7 @@ using namespace std;
 
 class Instrument {
 public:
-   virtual void MakeSound() = 0;
+   virtual void MakeSound() = 0; //pure virtual class
 };
 
 class Accordion:public Instrument {
